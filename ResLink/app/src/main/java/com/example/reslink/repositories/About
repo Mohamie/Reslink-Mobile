@@ -1,0 +1,8 @@
+Data Access Layer (DAL) / Repositories
+=======================
+The data access layer is responsible for providing an abstraction to the data layer. It makes
+sure that no matter what technology(ies) are used for data persistance, a single entry point
+that is technology agnostic exists.
+
+In this particular application, it references all BL classes. Model on MVVM Pattern
+It also uses LiveData as per MVVM Pattern

@@ -1,0 +1,7 @@
+Business Layer (BL) / Data Models
+===================
+Sometimes also called the Business Logic Layer (BLL), the BL contains entitiy definitions and
+business logic.
+
+
+

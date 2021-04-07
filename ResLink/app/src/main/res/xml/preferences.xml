@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory android:title="Sorting information">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/SortingCategories"
+            android:entryValues="@array/SortingCategoriesValues"
+            android:key="sortingAnnouncements"
+            android:title="Enable announcement sorting"
+            android:summary="Define how you want announcements to be sorted"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/SortingCategories"
+            android:entryValues="@array/SortingCategoriesValues"
+            android:key="sortingEvents"
+            android:title="Enable event sorting"
+            android:summary="Define how you want events to be sorted"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/SortingCategories"
+            android:entryValues="@array/SortingCategoriesValues"
+            android:key="sortingComplaints"
+            android:title="Enable complaint sorting"
+            android:summary="Define how you want complaints to be sorted"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/ComplaintStatus"
+            android:entryValues="@array/ComplaintStatusValues"
+            android:key="sortComplaints"
+            android:title="Complaint status"
+            app:summary="Define complaint status sort"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Manage notifications">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/ManageNotifications"
+            android:entryValues="@array/ManageNotificationValues"
+            android:key="chooseNotifications"
+            android:title="Notifications"
+            android:summary="Select which notifications you want to receive"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

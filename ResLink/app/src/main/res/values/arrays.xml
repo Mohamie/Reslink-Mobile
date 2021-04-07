@@ -1,0 +1,80 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="SelectNightMode">
+        <item>System</item>
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="SelectNightModeValues">
+        <item>system</item>
+        <item>dark</item>
+        <item>light</item>
+        <item>auto</item>
+    </string-array>
+
+    <string-array name="Sorting">
+        <item>Announcements</item>
+        <item>Events</item>
+        <item>Complaints</item>
+    </string-array>
+
+    <string-array name="SortingValues">
+        <item>announcements</item>
+        <item>events</item>
+        <item>complaints</item>
+    </string-array>
+
+    <string-array name="ManageNotifications">
+        <item>Announcements</item>
+        <item>Events</item>
+    </string-array>
+
+    <string-array name="ManageNotificationValues">
+        <item>announcements</item>
+        <item>events</item>
+    </string-array>
+
+    <string-array name="ComplaintStatus">
+        <item>Not Attended</item>
+        <item>Pending</item>
+        <item>Resolved</item>
+    </string-array>
+
+    <string-array name="ComplaintStatusValues">
+        <item>not attended</item>
+        <item>pending</item>
+        <item>resolved</item>
+    </string-array>
+
+    <string-array name="SortingCategories">
+        <item>Sports</item>
+        <item>Academics</item>
+        <item>Domestics</item>
+        <item>Religion</item>
+        <item>Marketing and Fundraising</item>
+        <item>First Years</item>
+
+    </string-array>
+
+    <string-array name="SortingCategoriesValues">
+        <item>sports</item>
+        <item>academics</item>
+        <item>domestics</item>
+        <item>religion</item>
+        <item>marketing and Fundraising</item>
+        <item>first Years</item>
+    </string-array>
+
+</resources>

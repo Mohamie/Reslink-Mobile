@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/announcementFragment"
+        android:title="Announcement"
+        android:icon="@drawable/ic_announcement" />
+
+    <item
+        android:id="@+id/eventFragment"
+        android:title="Events"
+        android:icon="@drawable/ic_event"/>
+
+    <item
+        android:id="@+id/complaintFragment"
+        android:title="Complaints"
+        android:icon="@drawable/ic_complaint"/>
+
+</menu>
